@@ -29,6 +29,10 @@ Go to client directory
 ```bash
   cd client
 ```
+Install dependencies
+```bash
+npm install
+```
 Back to Restaurant directory
 ```bash
 cd ..
@@ -46,7 +50,6 @@ Start the Client FrontEnd Part
 ```bash
 npm Start
 ```
-
 
 
 

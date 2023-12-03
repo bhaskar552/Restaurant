@@ -1,0 +1,135 @@
+.home{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    margin-bottom: 50px;
+}
+.headerContainer{
+    width: auto;
+    margin-left: 50px;
+    margin-bottom: 130px;
+
+}
+.home .headerContainer h1{
+    justify-content: center;
+    align-items: center;
+    font-weight:bold ;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:gold;
+}
+.home .headerContainer p{
+    color: white;
+    margin-top: 20px;
+}
+.headerContainer button{
+    background-color: purple;
+    margin-top: 20px;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+    width: 180px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+.headerContainer button.hover{
+    background-color: #07090a;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+.home-menu{
+    height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        align-items:center;
+        flex-direction:row;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: aliceblue;
+        margin-bottom: 50px;
+
+
+
+}
+.home-menu h1{
+    margin-bottom: 20px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.home-menu p{
+    text-align: left;
+    text-decoration: double;
+    color: #07090a;
+    font-weight: bold;
+    margin-left: auto;
+    background-size:inherit;
+    background-color: white;
+    align-self:self-start;
+    margin-right: 80px;
+}
+.events{
+    height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: right;
+        flex-direction: column;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color:white;
+        align-items: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-transform: capitalize;
+        font-weight: bold;
+        font-size: large;
+        margin-bottom: auto;
+        margin-bottom: 50px;
+
+  
+
+}
+.events h1{
+    text-align: center;
+    margin-bottom: auto;
+    margin-left: 10px;
+    color: white;
+}
+.events p{
+    text-align:left;
+    margin-top: auto;
+}
+.review{
+    height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: right;
+        flex-direction: column;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.review h1{
+    margin-left: 50px;
+}
+.nano{
+    margin-bottom: 50px;
+}
+.rev{
+    margin: auto;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-left: 100px;
+}
